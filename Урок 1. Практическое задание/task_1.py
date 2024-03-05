@@ -11,3 +11,20 @@
 Введите ваш возраст: 45
 Ваши данные для входа в аккаунт: имя - Василий, пароль - vas, возраст - 45
 """
+
+name = "Evgeny"
+original_password = 'sidorov'
+age = 45
+
+password = input('Введите пароль: ')
+if password == original_password and age == 45:
+    print(f'Пароль принят, добро пожаловать в систему, {name}')
+    print(f'Ваш пароль: {original_password}')
+    print(f'Ваш возраст:  {age}')
+else:
+    # если введен неправильный пароль
+    print('Пароль неверен, вход запрещен')
+
+
+
+
